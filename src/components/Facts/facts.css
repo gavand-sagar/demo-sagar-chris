@@ -1,0 +1,31 @@
+.imgfact {
+  font-size: 500%;
+  color: #fb6600;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgfact {
+    font-size: 500%;
+    color: #fb6600;
+    padding-bottom: 7%;
+    text-align: center;
+  }
+}
+
+.facttext {
+  text-align: center;
+  font-weight: 500;
+  font-size: 112.5%;
+  padding-bottom: 9%;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgfact {
+    font-size: 500%;
+    color: #fb6600;
+    padding-bottom: 7%;
+    text-align: center;
+  }
+}

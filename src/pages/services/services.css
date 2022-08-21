@@ -1,0 +1,26 @@
+.softwarediv {
+  background-color: #fb6600;
+  height: 24rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.counter {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .counter {
+    color: white;
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 6%;
+  }
+}

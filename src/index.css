@@ -1,0 +1,51 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  font-size: 200%;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 175%;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0%;
+  color: #fb6600;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 200%;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 175%;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0%;
+    color: #fb6600;
+  }
+}
+
+.heading-small {
+  font-size: 150%;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 225%;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0%;
+  color: #fb6600;
+}
+
+.bodytext {
+  font-size: 112.5%;
+  line-height: 218.75%;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0%;
+}
+
+.spacing {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}

@@ -1,0 +1,16 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #fb6600;
+  text-decoration: none;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: black;
+}

@@ -1,0 +1,12 @@
+.careerhead {
+  font-weight: 700;
+
+  line-height: 192%;
+}
+
+@media only screen and (max-width: 600px) {
+  .im1 {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+}

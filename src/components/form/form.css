@@ -1,0 +1,66 @@
+.colcolor {
+  background-color: #3b3131;
+  color: white;
+  padding: 40px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .colcolor {
+    background-color: #3b3131;
+    color: white;
+    padding: 18% 5%;
+    margin-top: 18%;
+  }
+}
+
+.iconstyle {
+  font-size: 50px;
+  color: white;
+  padding-right: 15px;
+}
+
+.iconstyle:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+.formstyle {
+  margin-bottom: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .formstyle {
+    margin-bottom: 8rem;
+    padding-top: 8%;
+  }
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #fb6600;
+  font-weight: 600;
+}
+
+.forminput {
+  padding-bottom: 1rem;
+}
+
+.imgfact2 {
+  font-size: 2rem;
+  color: #fb6600;
+  text-align: center;
+}
+
+.requiredspan {
+  color: red;
+}
+
+.formsubmitted {
+  text-align: center;
+  background-color: #fb6600;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+  font-size: 116%;
+  margin-bottom: 3%;
+}

@@ -1,0 +1,47 @@
+.img4style {
+  position: relative;
+  height: 50rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .body4style {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+  }
+}
+
+.head1 {
+  font-size: 42px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 60px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.iconstyle {
+  font-size: 60px;
+  color: white;
+  padding-right: 15px;
+}
+
+.iconstyle:hover {
+  color: #3b3131;
+  transform: scale(1.2);
+}
+
+.icondiv {
+  padding-top: 100px;
+}
+
+.bdiv {
+  background-color: #ed7e32;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  text-align: center;
+}

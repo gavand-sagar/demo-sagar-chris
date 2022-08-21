@@ -1,0 +1,90 @@
+.footerColor {
+  padding-top: 3%;
+
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerColor {
+    padding-top: 3%;
+    text-align: center;
+    background-color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footerColor {
+    padding-top: 13%;
+
+    background-color: black;
+  }
+}
+
+.mainfooter {
+  padding: 2% 2% 1% 2%;
+  background-color: black;
+  color: white;
+}
+
+.privacy {
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .privacy {
+    text-align: center;
+    padding-top: 3%;
+  }
+}
+
+.privacy2 {
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .privacy2 {
+    text-align: center;
+    padding-top: 3%;
+  }
+}
+
+.privacy3 {
+  list-style: none;
+  color: #fff;
+}
+
+.foottitle {
+  font-size: 137%;
+  padding-bottom: 6%;
+  margin-top: 4%;
+  text-align: left;
+  list-style: none;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .foottitle {
+    font-size: 137%;
+    padding-bottom: 6%;
+    margin-top: 4%;
+    text-align: center;
+    list-style: none;
+    color: white;
+  }
+}
+
+.mainfoot {
+  margin-bottom: 0%;
+  border: none;
+  text-align: left;
+  background-color: black;
+  color: white;
+  list-style: none;
+}
+
+.footdetails {
+  padding-bottom: 6%;
+  font-size: 16px;
+  color: white;
+  list-style: none;
+}

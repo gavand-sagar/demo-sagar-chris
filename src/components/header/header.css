@@ -1,0 +1,76 @@
+.mylogo {
+  height: 3.5rem;
+}
+
+.navp {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent !important;
+  font-weight: 400;
+  width: 100%;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+  color: #fb6600;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.linkx {
+  text-decoration: underline;
+  color: #3b3131;
+  color: #fb6600;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#basic-nav-dropdown {
+  color: #fb6600;
+  text-decoration: none;
+
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #fb6600;
+  text-decoration: none;
+  background-color: var(--bs-dropdown-link-hover-bg);
+}
+
+.link2 {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.dropdown-item {
+  text-decoration: none;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ed7e32;
+}
+
+a:hover {
+  color: #ed7e32;
+  text-decoration: underline;
+}
+
+.navspace {
+  width: 150px;
+}
+.listcolor {
+  color: white;
+  border: none;
+  background-color: black;
+  text-align: left;
+  text-decoration: none;
+}

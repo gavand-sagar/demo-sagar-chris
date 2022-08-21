@@ -1,0 +1,93 @@
+.mainbody {
+  background-size: cover;
+  height: 60rem;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maintext {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  font-size: 450%;
+}
+.main-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  font-size: 120%;
+  padding: 1% 10% 1% 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .maintext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-size: 260%;
+  }
+
+  .main-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-size: 120%;
+    padding: 1% 3% 1% 3%;
+  }
+}
+
+.maintext2 {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.maintext3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.imgstyle {
+  background-size: cover;
+  height: 25rem;
+
+  background-position: center;
+  top: 0%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgstyle {
+    background-size: cover;
+    height: 14rem;
+
+    background-position: center;
+    top: 0%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttoncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 17%;
+  }
+}

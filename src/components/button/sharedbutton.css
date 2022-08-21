@@ -1,0 +1,48 @@
+.buttonstyle {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 100%;
+  background-color: #fb6600;
+  border: none;
+  margin: 0% 0% 0% 0%;
+  padding: 2% 4% 2% 4%;
+}
+
+.buttonstyle1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 100%;
+  background-color: #fb6600;
+  border: none;
+  margin: 0% 0% 0% 0%;
+  padding: 1% 2% 1% 2%;
+}
+
+.buttonstyle-head {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 100%;
+  background-color: #3b3131;
+  border: none;
+  margin: 0% 0% 0% 4%;
+  padding: 2% 4% 2% 4%;
+}
+
+.buttonstyle-head:hover {
+  background-color: #fb6600;
+}
+
+.buttonstyle:hover {
+  background-color: #3b3131;
+}
+.headerstyle {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 112%;
+  background-color: #fb6600;
+  border: none;
+}
+
+.headerstyle:hover {
+  background-color: #3b3131;
+}

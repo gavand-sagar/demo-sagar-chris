@@ -1,0 +1,102 @@
+.maincard {
+  margin-bottom: 0%;
+  border: none;
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .maincard {
+    margin-bottom: 0%;
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+
+    align-items: center;
+  }
+}
+
+.maincard2 {
+  padding-top: 13%;
+  padding-bottom: 13%;
+  line-height: 281%;
+  font-size: 112%;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  margin-bottom: 3rem;
+}
+.maincard3 {
+  line-height: 281%;
+  font-size: 112%;
+  text-align: left;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .maincard3 {
+    line-height: 281%;
+    font-size: 112%;
+    text-align: center;
+    border: none;
+  }
+}
+
+.cardtitle {
+  font-size: 137%;
+  padding-bottom: 13%;
+  text-align: center;
+}
+
+.cardtitle2 {
+  font-size: 137%;
+  text-align: center;
+  color: #fb6600;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardtitlex {
+    font-size: 172%;
+    text-align: center;
+    color: #fb6600;
+  }
+}
+
+.listcolor {
+  color: white;
+  border: none;
+  background-color: black;
+  text-align: left;
+  text-decoration: none;
+}
+
+.cardtitle3 {
+  font-size: 137%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardtitle3 {
+    font-size: 137%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    text-align: left;
+  }
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:active,
+.list-group-item-action:hover {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
